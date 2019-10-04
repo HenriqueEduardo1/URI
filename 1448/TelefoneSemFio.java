@@ -6,9 +6,8 @@ public class TelefoneSemFio {
 
         int t = in.nextInt();
         in.nextLine();
-        
-        for (int i = 0; i < t; i++) {
-            
+       
+        for (int i = 0; i < t; i++) { 
             int cont1 = 0;
             int cont2 = 0;
             boolean a1 =  false;
