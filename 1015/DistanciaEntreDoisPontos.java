@@ -11,8 +11,7 @@ public class DistanciaEntreDoisPontos {
        float v1 = (float) Math.pow((x2 - x1),2);
        float v2 = (float) Math.pow((y2 - y1),2);
        
-        System.out.format("%.4f\n", Math.sqrt((v1 + v2)));
-        
+       System.out.format("%.4f\n", Math.sqrt((v1 + v2)));        
     }
 }
 
