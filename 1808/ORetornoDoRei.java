@@ -16,14 +16,9 @@ public class ORetornoDoRei {
                 cont1++;
                 qd++;
             }
-            else if(a[i] != '1'){
-                cont =  cont + (int)a[i] - 48;
-                cont1++;
-            }
-            else if(a[i] == '1'){
-                cont += 1;
-                cont1++;
-            }
+            
+            else if(a[i] != '1'){ cont =  cont + (int)a[i] - 48;  cont1++; }
+            else if(a[i] == '1'){ cont += 1;  cont1++; }  
             
         }
         System.out.printf("%.2f", ((cont - qd) / (cont1 - qd)));
